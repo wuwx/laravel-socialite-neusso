@@ -1,7 +1,7 @@
 {
     "name": "wuwx/laravel-socialite-neusso",
     "type": "library",
-    "keywords": ["laravel", "socialite", "passport"],
+    "keywords": ["laravel", "socialite", "neusso"],
     "description": "",
     "authors": [
         {
