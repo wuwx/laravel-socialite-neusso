@@ -25,7 +25,7 @@ class LaravelSocialiteNeussoServiceProvider extends ServiceProvider
                 {
                     phpCAS::forceAuthentication();
                     return (new User)->map([
-                        'nickname' => phpCAS::getUser(),
+                        'id' => phpCAS::getUser(),
                     ]);
                 }
             };
